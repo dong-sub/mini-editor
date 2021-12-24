@@ -1,19 +1,9 @@
 # mini-editor
-<xmp>
-<div class="mini-editor" role="editor">
-    <div class="placeholder">최대 500자 입력</div>
-    <div class="scr-area">
-      <textarea class="inp" spellcheck="false" maxlength="500">#해쉬</textarea>
-    </div>
-</div>
-</xmp>
-        
 					
 	$.widget( "ui.miniEditor", {
 	  version: "1.0",
 	  _value: "",
 	  maxLen: 500,
-	  composing:false,
 	  _create: function() {
 		 this.placeholder = this.element.find('.placeholder');
 		 this.inp = this.element.find('.inp');
