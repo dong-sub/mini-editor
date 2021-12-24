@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* layout */
+#wrap { position:absolute; width:100%; height:100%; overflow:hidden;}
+#header { position:fixed; left:50%; top:0; width:100%; max-width:1200px; height:90px; margin:0 auto; transform:translateX(-50%);}
+#container {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -ms-flex-direction: column; flex-direction: column; height:100%; overflow:hidden; overflow-y:auto;}
+#footer {width:100%; height:100px; background:#ccc;}
+
+
+#mainSection {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -ms-flex-direction: column; flex-direction: column; align-items: center; flex:1 0 auto;  overflow:hidden; overflow-y:auto; -ms-overflow-style: none; -webkit-overflow-scrolling: touch;}
+#mainSection::-webkit-scrollbar { display: none; }
+#mainSection .section {display:flex; flex:1 0 auto; width:100%; height:100%; align-items: center; justify-content: center;}
+#mainSection .section:last-of-type { height:100px;}
+#pagenation { position:fixed; top:0; right:0; padding:0 8px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -ms-flex-direction: column; flex-direction: column; align-items: center; justify-content: center;  height:100%; }
+#pagenation span { display:block; width:8px; height:8px; margin-bottom:6px; background:rgba(0,0,0,0.2); border-radius:8px; color:transparent; transition: background 0.4s 0s; cursor:pointer;}
+#pagenation span.current { background:rgba(0,0,0,0.7)}
+
+
+
+.mini-editor {
+	position: relative;
+	display: block;
+	width: 500px;
+	height: 120px;
+	font-size: 16px;
+	border: 2px solid red;
+	overflow-y: auto;
+    margin:0 auto;
+}
+
+.mini-editor .scr-area {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	overflow-y: visible;
+	padding: 0;
+	height: auto;
+	min-height: 100%;
+}
+
+.mini-editor br {
+	height: 0;
+	font-size: 0;
+	border: 0;
+}
+
+.mini-editor .placeholder,
+.mini-editor .outp, .mini-editor .inp {
+	font-family: "Noto Sans KR",sans-serif;
+	font-size: 16px;
+	flex: 1 0 auto;
+	text-align: left;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow-y: visible;
+	padding: 0;
+	border: 0;
+	line-height: 24px;
+	border-radius: 0;
+	word-break: break-all;
+	white-space: pre-wrap;
+}
+
+.mini-editor .placeholder.placeholder,
+.mini-editor .outp.placeholder, .mini-editor .inp.placeholder {
+	color: #666;
+}
+
+.mini-editor .placeholder.outp,
+.mini-editor .outp.outp, .mini-editor .inp.outp {
+	z-index: 1;
+	color: #000;
+}
+
+.mini-editor .placeholder.inp,
+.mini-editor .outp.inp, .mini-editor .inp.inp {
+	z-index: 2;
+	caret-color: #000;
+	background: transparent;
+}
+
+.mini-editor .placeholder.inp:focus,
+.mini-editor .outp.inp:focus, .mini-editor .inp.inp:focus {
+	border: 0;
+	outline: none;
+}
+
+.mini-editor .placeholder,
+.mini-editor .inp {
+	position: absolute;
+	resize: none;
+}
+
+.mini-editor.hasheditor .inp {
+	overflow: hidden;
+	color: transparent;
+}
+
+.mini-editor.hasheditor .hashtag {
+	color: red;
+}

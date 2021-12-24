@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-3{fill-rule:evenodd;fill:#fff}
+        </style>
+    </defs>
+    <g id="그룹_40618" transform="translate(-497.402 -2272.16)">
+        <rect id="사각형_5889" width="24" height="24" fill="#e2e2e2" rx="4" transform="translate(497.402 2272.16)"/>
+        <g id="그룹_40620" transform="translate(-153.832 -608.389)">
+            <path id="패스_2170" fill="#adadad" fill-rule="evenodd" d="M663.234 2885.549a7 7 0 1 0 7 7 7 7 0 0 0-7-7z" transform="translate(0 0)"/>
+            <g id="그룹_40621">
+                <path id="패스_2171" d="M711.44 2912.715a.875.875 0 1 1-.875.875.875.875 0 0 1 .875-.875z" class="cls-3" transform="translate(-48.498 -24.25)"/>
+                <path id="패스_2172" d="M703.782 2939.114h-3.5a.583.583 0 1 1 0-1.167h1.167v-2.333h-.583a.583.583 0 1 1 0-1.166h1.167a.583.583 0 0 1 .583.583v2.917h1.167a.583.583 0 1 1 0 1.167z" class="cls-3" transform="translate(-38.798 -43.648)"/>
+            </g>
+        </g>
+    </g>
+</svg>

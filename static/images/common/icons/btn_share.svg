@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="ico" transform="translate(-25.232 4)">
+        <path id="패스_3613" fill="#d0d0d0" fill-rule="evenodd" d="M41.6 3.273a3.636 3.636 0 0 0 3.632-3.637A3.636 3.636 0 0 0 41.6-4a3.637 3.637 0 0 0-3.641 3.636 3.69 3.69 0 0 0 .08.762l-6.428 3.214a3.636 3.636 0 1 0 .2 4.531l6.244 3.405a3.64 3.64 0 1 0 .839-1.614l-6.411-3.5A3.67 3.67 0 0 0 32.5 6a3.628 3.628 0 0 0-.08-.762l6.428-3.215a3.628 3.628 0 0 0 2.752 1.25z"/>
+        <circle id="타원_810" cx="1.818" cy="1.818" r="1.818" class="cls-2" transform="translate(39.778 -2.182)"/>
+        <circle id="타원_811" cx="1.818" cy="1.818" r="1.818" class="cls-2" transform="translate(27.051 4.182)"/>
+        <circle id="타원_812" cx="1.818" cy="1.818" r="1.818" class="cls-2" transform="translate(39.778 10.545)"/>
+    </g>
+</svg>

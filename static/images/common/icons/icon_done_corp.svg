@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.865" height="36.865" viewBox="0 0 36.865 36.865">
+    <defs>
+        <style>
+            .cls-2{fill:#f5e305}
+        </style>
+    </defs>
+    <g id="ico_기업" transform="translate(-203.865 -3518.596)">
+        <g id="그룹_41140" transform="translate(203.865 3518.596)">
+            <path id="패스_3156" fill="#34a8db" fill-rule="evenodd" d="M203.865 3523.623a5.027 5.027 0 0 1 5.027-5.027H222.3a5.027 5.027 0 0 1 5.027 5.027V3532h8.373a5.027 5.027 0 0 1 5.027 5.027v16.757a1.676 1.676 0 0 1-1.676 1.676h-33.51a1.676 1.676 0 0 1-1.676-1.676z" transform="translate(-203.865 -3518.596)"/>
+        </g>
+        <g id="그룹_41148" transform="translate(210.568 3525.299)">
+            <g id="그룹_41141" transform="translate(20.108 13.405)">
+                <path id="패스_3157" d="M301.279 3593.75a1.676 1.676 0 1 0-1.676-1.675 1.675 1.675 0 0 0 1.676 1.675z" class="cls-2" transform="translate(-299.603 -3590.399)"/>
+            </g>
+            <g id="그룹_41142" transform="translate(20.108 20.108)">
+                <path id="패스_3158" d="M302.954 3616.009a1.676 1.676 0 1 1-1.676-1.675 1.676 1.676 0 0 1 1.676 1.675z" class="cls-2" transform="translate(-299.603 -3614.334)"/>
+            </g>
+            <g id="그룹_41143" transform="translate(0 6.703)">
+                <path id="패스_3159" d="M229.475 3569.816a1.676 1.676 0 1 0-1.676-1.676 1.676 1.676 0 0 0 1.676 1.676z" class="cls-2" transform="translate(-227.799 -3566.465)"/>
+            </g>
+            <g id="그룹_41144" transform="translate(0 13.405)">
+                <path id="패스_3160" d="M231.151 3592.075a1.676 1.676 0 1 1-1.676-1.676 1.675 1.675 0 0 1 1.676 1.676z" class="cls-2" transform="translate(-227.799 -3590.399)"/>
+            </g>
+            <g id="그룹_41145" transform="translate(0 0)">
+                <path id="패스_3161" d="M229.475 3545.881a1.676 1.676 0 1 0-1.676-1.676 1.676 1.676 0 0 0 1.676 1.676z" class="cls-2" transform="translate(-227.799 -3542.53)"/>
+            </g>
+            <g id="그룹_41146" transform="translate(6.703 6.703)">
+                <path id="패스_3162" d="M255.085 3568.141a1.676 1.676 0 1 1-1.676-1.676 1.676 1.676 0 0 1 1.676 1.676z" class="cls-2" transform="translate(-251.734 -3566.465)"/>
+            </g>
+            <g id="그룹_41147" transform="translate(6.703 13.405)">
+                <path id="패스_3163" d="M253.41 3593.75a1.676 1.676 0 1 0-1.676-1.675 1.675 1.675 0 0 0 1.676 1.675z" class="cls-2" transform="translate(-251.734 -3590.399)"/>
+            </g>
+        </g>
+    </g>
+</svg>
